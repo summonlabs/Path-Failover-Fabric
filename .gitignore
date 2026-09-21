@@ -1,0 +1,32 @@
+# Build trees
+/build/
+/build-*/
+/out/
+cmake-build-*/
+_install/
+_stage/
+
+# CMake debris
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+*.cmake.stamp
+
+# Local scratch
+/tmp/
+/scratch/
+*.log
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# Tooling
+.vs/
+.vscode/
+.idea/
+*.user
+compile_commands.json
+
+# Fresh-clone closure output
+/closure/
